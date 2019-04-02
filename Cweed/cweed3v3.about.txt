@@ -1,0 +1,4 @@
+Cweed V3.3 has support for C++ namespaces
+Added CRC32 and MD5 values for the file, Lint reports, Folder Report
+Added build support for Windows7
+Also conversion from Forth blocks to a file - press ctrlR

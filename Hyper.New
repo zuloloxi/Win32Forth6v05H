@@ -1,0 +1,16 @@
+You now need to recompile your NDX file.  Click on hYper
+above and select Build.  Then exit the program.
+
+Tip: If you get too many false hits for links to definitions
+try moving the block of text under META.F down to the bottom
+and then do the same with SEE.F.  (You can do this from the
+WinEd by opening WinEd.NDX)
+
+You can do this to other files you may find troublesome as well.
+
+Reinstalling?  If you are resinstalling after having another
+version of Win32Forth (even if you previously uninstalled)
+click on Search --> Find Text In Files and make sure the
+search subdirectories check box is NOT selected.  Then Close
+the dialog.  This allows you to skip the WinEd source files 
+in the hyper index file.

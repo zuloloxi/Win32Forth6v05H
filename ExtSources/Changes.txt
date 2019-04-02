@@ -1,0 +1,23 @@
+20/02/2019
+Term.c  problem with registry - console settings
+
+Changed to use the default setings 3,3,634,474 when the Console key is not present (as on a new computer) in HKEY_CURRENT_USER\Software\Win32For\Settings.
+Previously when this key could not be found some random console sizes were produced and they were expecting 0 for the height to select the default settings.
+
+********************************************************************************
+December 2018
+Forth.c  prevent a crash if the commandline is more than 300 characters
+
+********************************************************************************
+2014
+Use Minimize Size optimization and /filealign:512 to reduce size of output file
+
+********************************************************************************
+2011
+Term.c  prevent console starting minimized
+
+********************************************************************************
+2006
+Term.c  changed wndclass.style and WM_SIZE to prevent flicker when sizing
+
+********************************************************************************

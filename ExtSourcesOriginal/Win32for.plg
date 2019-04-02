@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Win32for - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"WinRel/FORTH.res" /d "NDEBUG" "D:\forth\501a\ExtSources\FORTH.RC"" 
+Creating temporary file "C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FAs /Fa"WinRel/" /FR"WinRel/" /Fp"WinRel/Win32for.pch" /YX /Fo"WinRel/" /Fd"WinRel/" /FD /c 
+"D:\forth\501a\ExtSources\FORTH.C"
+"D:\forth\501a\ExtSources\TERM.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"WinRel/FKERNEL.pdb" /machine:I386 /out:"FKERNEL.EXE" /filealign:512 
+.\WinRel\FORTH.OBJ
+.\WinRel\TERM.OBJ
+.\WinRel\FORTH.res
+]
+Creating command line "link.exe @C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+FORTH.C
+TERM.C
+Linking...
+Creating command line "bscmake.exe /nologo /o"WinRel/Win32for.bsc"  .\WinRel\FORTH.SBR .\WinRel\TERM.SBR"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP55.bat" with contents
+[
+@echo off
+copy fkernel.exe ..\fkernel.exe
+copy fkernel.exe ..\kernel.bin
+copy fkernel.exe ..\win32for.exe
+del ..\wined.exe
+]
+Creating command line "C:\DOCUME~1\amcdonal\LOCALS~1\Temp\RSP55.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+Could Not Find D:\forth\501a\wined.exe
+Error executing c:\winnt\system32\cmd.exe.
+
+
+
+<h3>Results</h3>
+FKERNEL.EXE - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

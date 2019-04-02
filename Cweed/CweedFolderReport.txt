@@ -1,0 +1,29 @@
+Cweed Folder Report October 8th, 2011 18:35:13  Cweed V3.3 2019 Mar 02 www.inventio.co.uk
+FolderReport for  C:\Win32Forth\Cweed
+Filename                                                                                               Cweed Indents Tabs  Lint
+*.c??
+C:\Win32Forth\Cweed\BadlyFormattedLongCode.c                                                         |   225 1433     0    0/0    Sum =   3A6542  CRC32 = C832D641  MD5 = EC4BA6729B5F7FD93D3269BE1A14A363  PC format  
+C:\Win32Forth\Cweed\BadlyFormattedLongCodeCweeded.c                                                  |    64 1457     0    0/0    Sum =   3B58D4  CRC32 = A1B3B95D  MD5 = A327C29B0CA229D0A394CA92A0D07EF2  PC format  
+C:\Win32Forth\Cweed\BadlyFormattedLongCodeFixed.c                                                    |     0  974     0    0/0    Sum =   2067DD  CRC32 = 94B145B1  MD5 = 1407A08FFD637D9A16F2CB85229E0060  PC format  
+C:\Win32Forth\Cweed\BIT7S.C                                                                          |   107    0     0    0/0    Sum =   25ED79  CRC32 = 7EE3489A  MD5 = 38CB32B04B424C615A8A8FD6032D2F1F  PC format  
+C:\Win32Forth\Cweed\CPPcment.C                                                                       |     0    1     0    0/0    Sum =     5CFF  CRC32 = 7014EE4A  MD5 = 2232FFC3DE8C6D317B16A7F8CB8987E5  PC format  
+C:\Win32Forth\Cweed\FLOATPTR.C                                                                       |     7    0     0    0/0    Sum =     8FA0  CRC32 =  5DFA957  MD5 = 0EB1B7C25CA8B0AADF97B76A62F94E01  PC format  
+C:\Win32Forth\Cweed\HIDDEN.C                                                                         |     3   17     0    0/0    Sum =     E10C  CRC32 = A50BDDEB  MD5 = B47BF3DCEA9DFFEEFAFB15CA9CEF2ED1  UNIX format
+C:\Win32Forth\Cweed\INDENTS.C                                                                        |     0    6     0    0/0    Sum =     9F6A  CRC32 = C0EBF35E  MD5 = BED1053DBAD5070BEFBF4C6C7377EF5C  PC format  
+C:\Win32Forth\Cweed\LINES.C                                                                          |     0    0     0    0/0    Sum =    178EA  CRC32 = EC13E0AB  MD5 = EE0BDE895EF3C4E92D7933A48D4F1704  UNIX format
+C:\Win32Forth\Cweed\lint.cpp                                                                         |     1    5     0    3/2  ! Unbalanced!!!! Line 18 !  '-' after -restore ! Space before 'lint'   Sum =     8AA6  CRC32 = 1B42A011  MD5 = A8D01FA6EE860D290DF32254163E3C59  PC format  
+C:\Win32Forth\Cweed\LONG.C                                                                           |     0    0     0    0/0    Sum =     779F  CRC32 =  CF46FE6  MD5 = 586821858677FB752C92A82A7A521823  PC format  
+C:\Win32Forth\Cweed\MYSRC.C                                                                          |    11    0     0    0/0    Sum =     1D0C  CRC32 = 5B518BB5  MD5 = E410DA6890B8B00803D14319359F3B76
+C:\Win32Forth\Cweed\MYSRC2.C                                                                         |     2    5     0    0/0    Sum =     EFF0  CRC32 = 61460FFC  MD5 = E2D9A40724915F1D32AA83B0C812BCD9  PC format  
+C:\Win32Forth\Cweed\PARAMS.C                                                                         |     0   13     0    0/0    Sum =    304A5  CRC32 = EC9979C8  MD5 = 560B1CE1C908F1094BC763FF54F9FCB6  PC format  
+C:\Win32Forth\Cweed\READONLY.C                                                                       |     1    0     0    0/0    Sum =     3E35  CRC32 =  1249634  MD5 = 392F55FDD7FBF64C9B1EDC8FF278A750  PC format  
+C:\Win32Forth\Cweed\TABS.C                                                                           |     0    0     0    0/0    Sum =     46ED  CRC32 = ABE762C0  MD5 = AA1AE6CDE0046462C12E33D1B7AD9B07  UNIX format
+C:\Win32Forth\Cweed\test.cpp                                                                         |     0    5     0    0/0    Sum =     19FF  CRC32 = D244FD1E  MD5 = 38E4AAC26FB2BC4FAD1B974444DA4F2C  PC format  
+C:\Win32Forth\Cweed\widg_control.c                                                                   |    67  783     0    0/0    Sum =   8937C2  CRC32 = 9CB158E3  MD5 = 26C04B3013BB47EE27403AE583260353  UNIX format
+C:\Win32Forth\Cweed\Win32for.cfg                                                                     |     0    0     0    0/0    Sum =     80E1  CRC32 = 6A824830  MD5 = 9962B79109391A90F6835939A9B0D60B  PC format  
+*.h??
+
+Number of files scanned = 19     Elapsed time: 00:00:00.842
+Total number of Cweed errors in the folder = 488 
+Total number of tabs (09) in the folder    = 0 
+4 Lint errors found in 1 file!!!
