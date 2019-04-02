@@ -1,13 +1,4 @@
-"# Win32Forth6v05H" 
-
-#upload, push to github
- 
-echo "# Win32Forth6v05H" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/xxxoxxx/Win32Forth6v05H.git
-git push -u origin master
+# Win32Forth6v05H
 
 Win32Forth6v05H 2019 Mar 02 - http://www.inventio.co.uk/LegacyIndex.htm
 
@@ -42,3 +33,12 @@ zCompile{   which compiles the text following it until End} as a null terminated
 Useful for helptext.  Type  loc Show{  to view the source code, and  g  to open the editor.
 
 There is a readme.txt file to get you started
+
+#upload, push to github
+
+echo "# Win32Forth6v05H" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xxxoxxx/Win32Forth6v05H.git
+git push -u origin master
